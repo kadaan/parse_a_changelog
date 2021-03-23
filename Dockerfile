@@ -7,4 +7,4 @@ RUN bundle install --binstubs=/app
 ENV PATH=/app:${PATH}
 
 ENTRYPOINT ["parse"]
-CMD ["/CHANGELOG.md"]
+CMD ["CHANGELOG.md"]
